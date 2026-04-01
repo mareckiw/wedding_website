@@ -49,7 +49,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                 <ChevronDown className="h-5 w-5 transition-transform group-hover:translate-y-1" />
               </a>
               <Link href="/photos" className="group inline-flex items-center gap-2 rounded-full bg-white dark:bg-gray-800 px-8 py-3 text-gray-800 dark:text-gray-100 shadow-lg transition hover:shadow-xl">
-                View Photos
+                Szczegóły wesela
               </Link>
             </motion.div>
           </section>
