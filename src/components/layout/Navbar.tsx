@@ -5,14 +5,14 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const navLinks = [
-  { href: '/', label: 'Home' },
-  { href: '/photos', label: 'Photos' },
-  { href: '/archive', label: 'Archive' },
+  { href: '/', label: 'Strona Główna' },
+  { href: '/photos', label: 'Zdjęcia' },
+  //{ href: '/archive', label: 'Archive' },
 ];
 
 const homeNavLinks = [
-  { href: '#details', label: 'Details' },
-  { href: '#travel', label: 'Travel' },
+  { href: '#details', label: 'Szczegóły wesela' },
+  { href: '#travel', label: 'Transport' },
   { href: '#faq', label: 'FAQ' },
 ];
 
@@ -53,7 +53,7 @@ export default function Navbar({ isAdmin, handleLogout, headerRef }: NavbarProps
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <Link href="/" className="text-2xl font-bold text-gray-800 dark:text-white">
-              A & F
+              A & M
             </Link>
           </div>
           <div className="hidden md:block">
