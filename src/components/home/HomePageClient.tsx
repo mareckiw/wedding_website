@@ -90,11 +90,11 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             <h2 className="text-4xl font-bold text-rose-700">Więcej o weselu</h2>
             <p className="mx-auto max-w-xl text-lg">Siedlisko tary Tartak to ukryte miejsce pośród wzgórz i stawów z widokiem na Beskid Śląski. Miejsce jest ukryte, bo nie znajdziecie go na Mapach Google - należy jechać pod adres <a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">&quot;Na Kępie 2, Pruchna,&quot;</a> podany wyżej.</p>
           </motion.section>
-          <motion.section id="travel" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.7}>
-            <h2 className="text-4xl font-bold text-rose-700">Travel & Things to Do in Rochester</h2>
-            <p className="mx-auto max-w-xl text-lg">For our guests flying in, you can fly into Rochester International Airport (RST) for a quick trip, or Minneapolis-Saint Paul International Airport (MSP) if you don&rsquo;t mind a scenic 90-minute drive. There is ample parking at the Plummer House for the wedding ceremony and reception.</p>
-            <p className="mx-auto max-w-xl text-lg mt-4">While you&apos;re in town, we recommend visiting the <a href="https://www.mayoclinic.org/patient-visitor-guide/minnesota" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">Mayo Clinic campus</a> to see the beautiful architecture and its world-renowned art collection. A highlight of the campus is the Plummer Building (not to be confused with the Plummer House where our wedding is located!), a National Historic Landmark. Atop the Plummer Building is the famous 56-bell Carillon of Mayo, one of the largest musical instruments of its kind. You can often hear its beautiful music throughout downtown Rochester. We also recommend taking a stroll through <a href="https://www.rochestermn.gov/Home/Components/FacilityDirectory/FacilityDirectory/138/1258" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">Silver Lake Park</a> or exploring the many great restaurants and breweries in the city.</p>
-          </motion.section>
+          {/* <motion.section id="travel" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.7}> */}
+            {/* <h2 className="text-4xl font-bold text-rose-700">Travel & Things to Do in Rochester</h2> */}
+            {/* <p className="mx-auto max-w-xl text-lg">For our guests flying in, you can fly into Rochester International Airport (RST) for a quick trip, or Minneapolis-Saint Paul International Airport (MSP) if you don&rsquo;t mind a scenic 90-minute drive. There is ample parking at the Plummer House for the wedding ceremony and reception.</p> */}
+            {/* <p className="mx-auto max-w-xl text-lg mt-4">While you&apos;re in town, we recommend visiting the <a href="https://www.mayoclinic.org/patient-visitor-guide/minnesota" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">Mayo Clinic campus</a> to see the beautiful architecture and its world-renowned art collection. A highlight of the campus is the Plummer Building (not to be confused with the Plummer House where our wedding is located!), a National Historic Landmark. Atop the Plummer Building is the famous 56-bell Carillon of Mayo, one of the largest musical instruments of its kind. You can often hear its beautiful music throughout downtown Rochester. We also recommend taking a stroll through <a href="https://www.rochestermn.gov/Home/Components/FacilityDirectory/FacilityDirectory/138/1258" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">Silver Lake Park</a> or exploring the many great restaurants and breweries in the city.</p> */}
+          {/* </motion.section> */}
           <motion.section id="faq" className="mx-auto max-w-3xl space-y-8 px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.9}>
             <h2 className="text-center text-4xl font-bold text-rose-700">Sekcja pytań i odpowiedzi</h2>
             <div className="space-y-4 text-left">
@@ -102,19 +102,23 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                 <h3 className="font-semibold text-lg">Kiedy życzenia?</h3>
                 <p>Jeśli jesteś zaproszony na weselę - życzenia składamy na sali weselnej.</p>
               </div>
-              <div>
-                <h3 className="font-semibold text-lg">Can I Bring My Kids?</h3>
-                <p>We adore your little ones, but this celebration is adults only. Treat it as a date night while we toast to the next chapter of our lives.</p>
+               <div>
+                <h3 className="font-semibold text-lg">Jaka jest polityka upominkowa?</h3>
+                <p>W miejscu wesela będzie pełno kwiatów. Mamy już też wyposażenie mieszkania. Najlepszym pomysłem jest koperta.
+                </p>
               </div>
               <div>
-                <h3 className="font-semibold text-lg">Is there parking available?</h3>
-                <p>Yes, there are 40 spots of parking available at the Plummer House.</p>
+                <h3 className="font-semibold text-lg">Wesele z dziećmi?</h3>
+                <p>Jeśli wskazane na indyiwudalnym zaproszeniu.</p>
+              </div>
+              <div>
+                <h3 className="font-semibold text-lg">Czy na miejscu wesela jest parking?</h3>
+                <p>Tak, lecz nie duży. Najlepiej skorzystać w podwózki na wesele i wrócić do domu zorganizowanym transportem.</p>
               </div>
             </div>
           </motion.section>
           <footer className="flex flex-col items-center gap-4 px-4 pb-10 text-sm text-gray-500 dark:text-gray-400">
-            <p>© {new Date().getFullYear()} Abbigayle & Frederick • Designed with ❤️ in Minnesota</p>
-            <p>Stay tuned for more updates from our lives together!</p>
+            <p>© {new Date().getFullYear()}Designed with ❤️ in Warsaw</p>
             <a href="/project-info" className="text-rose-600 dark:text-rose-400 hover:underline">About this site</a>
             <Link
               href="/heart"
