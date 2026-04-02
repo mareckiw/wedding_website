@@ -12,7 +12,7 @@ const navLinks = [
 
 const homeNavLinks = [
   { href: '#details', label: 'Szczegóły wesela' },
-  { href: '#travel', label: 'Transport' },
+  { href: '#accommodations', label: 'Logistyka' },
   { href: '#faq', label: 'FAQ' },
 ];
 
