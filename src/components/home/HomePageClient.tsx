@@ -109,7 +109,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Wesele z dziećmi?</h3>
-                <p>Jeśli wskazane na indyiwudalnym zaproszeniu.</p>
+                <p>Jeśli wskazane na indywidualnym zaproszeniu.</p>
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Czy na miejscu wesela jest parking?</h3>
@@ -118,7 +118,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             </div>
           </motion.section>
           <footer className="flex flex-col items-center gap-4 px-4 pb-10 text-sm text-gray-500 dark:text-gray-400">
-            <p>© {new Date().getFullYear()}Designed with ❤️ in Warsaw</p>
+            <p>© {new Date().getFullYear()} Designed with ❤️ in Warsaw</p>
             <a href="/project-info" className="text-rose-600 dark:text-rose-400 hover:underline">About this site</a>
             <Link
               href="/heart"
