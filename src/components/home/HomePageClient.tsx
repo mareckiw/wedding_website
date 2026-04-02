@@ -53,12 +53,12 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
               </Link>
             </motion.div>
           </section>
-          <motion.section id="story" className="mx-auto max-w-3xl space-y-8 px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={0}>
-            <h2 className="text-center text-4xl font-bold text-rose-700">Our Story</h2>
-            <p className="text-lg leading-relaxed">It all began with a swipe right on a cool evening in 2024. Abbi was drawn to Fred&apos;s adventurous spirit, while Fred was captivated by Abbi&apos;s warm smile and shared love for hotdogs. Our first date involved Fred plugging the laser loon and ended with hours of conversation that felt like minutes.</p>
-            <p className="text-lg leading-relaxed">Since then, we&apos;ve built a life filled with laughter, shared dreams, and countless adventures. From exploring parks to cozy nights in binge-watching our favorite shows, we&apos;ve collected countless miles on the odometer, concert stubs, a few wolves tickets, and a growing library of inside jokes. We&apos;ve supported each other through thick and thin, celebrating milestones like Abbi&apos;s graduation as a Nurse Practitioner, and learned that home isn&apos;t just a place, but a feeling we find in each other.</p>
-            <p className="text-lg leading-relaxed">As we all were saying goodbye to 2024 and bringing in 2025, Fred recreated our very first date together in downtown Minneapolis. While the ball had just dropped, Fred asked Abbi to be his forever adventure partner, starting the new year right. Through happy tears, she said yes! We were so excited to celebrate our love and begin our next chapter with you at our Plummer House wedding.</p>
-          </motion.section>
+          {/* <motion.section id="story" className="mx-auto max-w-3xl space-y-8 px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={0}> */}
+            {/* <h2 className="text-center text-4xl font-bold text-rose-700">Our Story</h2> */}
+            {/* <p className="text-lg leading-relaxed">It all began with a swipe right on a cool evening in 2024. Abbi was drawn to Fred&apos;s adventurous spirit, while Fred was captivated by Abbi&apos;s warm smile and shared love for hotdogs. Our first date involved Fred plugging the laser loon and ended with hours of conversation that felt like minutes.</p> */}
+            {/* <p className="text-lg leading-relaxed">Since then, we&apos;ve built a life filled with laughter, shared dreams, and countless adventures. From exploring parks to cozy nights in binge-watching our favorite shows, we&apos;ve collected countless miles on the odometer, concert stubs, a few wolves tickets, and a growing library of inside jokes. We&apos;ve supported each other through thick and thin, celebrating milestones like Abbi&apos;s graduation as a Nurse Practitioner, and learned that home isn&apos;t just a place, but a feeling we find in each other.</p> */}
+            {/* <p className="text-lg leading-relaxed">As we all were saying goodbye to 2024 and bringing in 2025, Fred recreated our very first date together in downtown Minneapolis. While the ball had just dropped, Fred asked Abbi to be his forever adventure partner, starting the new year right. Through happy tears, she said yes! We were so excited to celebrate our love and begin our next chapter with you at our Plummer House wedding.</p> */}
+          {/* </motion.section> */}
           <motion.section id="details" className="px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1}>
             <h2 className="text-center text-4xl font-bold text-rose-700 mb-10">Plan dnia</h2>
             <div className="mx-auto grid max-w-5xl gap-10 md:grid-cols-2">
@@ -81,12 +81,12 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             </div>
           </motion.section>
           <motion.section id="accommodations" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.5}>
-            <h2 className="text-4xl font-bold text-rose-700">Accommodations in Rochester, MN</h2>
-            <p className="mx-auto max-w-xl text-lg">Rochester offers plenty of places to stay for our wedding weekend. We opted not to reserve a block so you can choose what fits your style and budget. For a luxurious stay, consider the <a href="https://www.hilton.com/en/hotels/rstmahh-hilton-rochester-mayo-clinic-area/" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">Hilton Rochester Mayo Clinic Area</a> or the <a href="https://rochesterbroadwayplaza.com/" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">Broadway Plaza</a>. For more budget-friendly options, there are many comfortable motels in the area. Your favorite booking site will have the best deals for hotels in Rochester.</p>
+            <h2 className="text-4xl font-bold text-rose-700">Logistyka</h2>
+            <p className="mx-auto max-w-xl text-lg">TRANSPORT: Dla gości z okolicy zadbaliśmy o kierowcę, który własnym busem odwiezie was do domu.<br>NOCLEG: Dla gości przyjezdnych zapewniamy nocleg po potwierdzeniu chęci skorzystania.</></p>
           </motion.section>
           <motion.section id="venue" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.6}>
-            <h2 className="text-4xl font-bold text-rose-700">About Our Venue</h2>
-            <p className="mx-auto max-w-xl text-lg">Our wedding will be held at the beautiful Plummer House, a historic English Tudor mansion that was the former home of Dr. Henry Stanley Plummer, a key figure in the history of the Mayo Clinic, and his wife, Daisy. Originally known as <a href="https://mngardens.horticulture.umn.edu/plummer-house-arts-gardens" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">&quot;Quarry Hill,&quot;</a> the house was filled with innovations for its time and is a cherished landmark in Rochester. We are so excited to share this special place with you.</p>
+            <h2 className="text-4xl font-bold text-rose-700">Więcej o weselu</h2>
+            <p className="mx-auto max-w-xl text-lg">Siedlisko tary Tartak to ukryte miejsce pośród wzgórz i stawów z widokiem na Beskid Śląski. Miejsce jest ukryte, bo nie znajdziecie go na Mapach Google - należy jechać pod adres <a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">&quot;Na Kępie 2, Pruchna,&quot;</a> podany wyżej.</p>
           </motion.section>
           <motion.section id="travel" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.7}>
             <h2 className="text-4xl font-bold text-rose-700">Travel & Things to Do in Rochester</h2>
@@ -94,11 +94,11 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             <p className="mx-auto max-w-xl text-lg mt-4">While you&apos;re in town, we recommend visiting the <a href="https://www.mayoclinic.org/patient-visitor-guide/minnesota" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">Mayo Clinic campus</a> to see the beautiful architecture and its world-renowned art collection. A highlight of the campus is the Plummer Building (not to be confused with the Plummer House where our wedding is located!), a National Historic Landmark. Atop the Plummer Building is the famous 56-bell Carillon of Mayo, one of the largest musical instruments of its kind. You can often hear its beautiful music throughout downtown Rochester. We also recommend taking a stroll through <a href="https://www.rochestermn.gov/Home/Components/FacilityDirectory/FacilityDirectory/138/1258" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">Silver Lake Park</a> or exploring the many great restaurants and breweries in the city.</p>
           </motion.section>
           <motion.section id="faq" className="mx-auto max-w-3xl space-y-8 px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.9}>
-            <h2 className="text-center text-4xl font-bold text-rose-700">Questions You Probably Have</h2>
+            <h2 className="text-center text-4xl font-bold text-rose-700">Sekcja pytań i odpowiedzi</h2>
             <div className="space-y-4 text-left">
               <div>
-                <h3 className="font-semibold text-lg">What is &quot;Garden Formal&quot;?</h3>
-                <p>It means look nice, but maybe don&apos;t wear stilettos unless you enjoy aerating the lawn.</p>
+                <h3 className="font-semibold text-lg">Kiedy życzenia?</h3>
+                <p>Jeśli jesteś zaproszony na weselę - życzenia składamy na sali weselnej.</p>
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Can I Bring My Kids?</h3>
