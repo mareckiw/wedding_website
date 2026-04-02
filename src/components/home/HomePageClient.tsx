@@ -37,14 +37,14 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
         <main id="main">
           <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-4 py-28 text-center sm:px-6 lg:px-8">
             <div className="absolute inset-0 -z-10 bg-[radial-gradient(800px_circle_at_50%_50%,rgba(190,18,60,0.06),transparent)] animate-pulse-scale" />
-            <motion.h1 className="mb-6 text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-zinc-100 to-[#87986a] sm:text-6xl lg:text-7xl" variants={fadeUp} initial="hidden" animate="visible" custom={0}>
+            <motion.h1 className="mb-6 text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-zinc-100 to-[#568770] sm:text-6xl lg:text-7xl" variants={fadeUp} initial="hidden" animate="visible" custom={0}>
               Będzie wesele!
             </motion.h1>
             <motion.p className="mb-4 text-lg font-medium sm:text-xl" variants={fadeUp} initial="hidden" animate="visible" custom={1}>
               Aleksandra i Marek w radością zapraszają na ślub i wspólne świetowanie z nami 11 lipca 2026 roku.
             </motion.p>
             <motion.div className="flex flex-col items-center gap-3 sm:flex-row sm:gap-6" variants={fadeUp} initial="hidden" animate="visible" custom={2}>
-              <a href="https://forms.gle/tg3ZUboCtpUdSkJd7" className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#545e42] to-[#87986a] px-8 py-3 text-white shadow-lg transition hover:shadow-xl" target="_blank" rel="noopener noreferrer">
+              <a href="https://forms.gle/tg3ZUboCtpUdSkJd7" className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#545e42] to-[#568770] px-8 py-3 text-white shadow-lg transition hover:shadow-xl" target="_blank" rel="noopener noreferrer">
                 RSVP - potwierdz obecność
                 <ChevronDown className="h-5 w-5 transition-transform group-hover:translate-y-1" />
               </a>
@@ -60,7 +60,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             {/* <p className="text-lg leading-relaxed">As we all were saying goodbye to 2024 and bringing in 2025, Fred recreated our very first date together in downtown Minneapolis. While the ball had just dropped, Fred asked Abbi to be his forever adventure partner, starting the new year right. Through happy tears, she said yes! We were so excited to celebrate our love and begin our next chapter with you at our Plummer House wedding.</p> */}
           {/* </motion.section> */}
           <motion.section id="details" className="px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1}>
-            <h2 className="text-center text-4xl font-bold text-rose-700 mb-10">Plan dnia</h2>
+            <h2 className="text-center text-4xl font-bold text-[#568770] mb-10">Plan dnia</h2>
             <div className="mx-auto grid max-w-5xl gap-10 md:grid-cols-2">
               <div className="rounded-2xl border border-rose-100 dark:border-rose-700 bg-white dark:bg-gray-800 p-8 shadow-lg transition-transform hover:scale-[1.02]">
                 <h3 className="mb-4 text-2xl font-semibold text-gray-800 dark:text-gray-100">Ślub</h3>
@@ -81,13 +81,13 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             </div>
           </motion.section>
           <motion.section id="accommodations" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.5}>
-            <h2 className="text-4xl font-bold text-rose-700">Logistyka</h2>
+            <h2 className="text-4xl font-bold text-[#568770]">Logistyka</h2>
             <p className="mx-auto max-w-xl text-lg">TRANSPORT: Dla gości z okolicy zadbaliśmy o kierowcę, który własnym busem odwiezie was do domu. 
               <br />
               NOCLEG: Dla gości przyjezdnych zapewniamy nocleg po potwierdzeniu chęci skorzystania.</p>
           </motion.section>
           <motion.section id="venue" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.6}>
-            <h2 className="text-4xl font-bold text-rose-700">Więcej o weselu</h2>
+            <h2 className="text-4xl font-bold text-[#568770]">Więcej o weselu</h2>
             <p className="mx-auto max-w-xl text-lg">Siedlisko tary Tartak to ukryte miejsce pośród wzgórz i stawów z widokiem na Beskid Śląski. Miejsce jest ukryte, bo nie znajdziecie go na Mapach Google - należy jechać pod adres <a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">&quot;Na Kępie 2, Pruchna,&quot;</a> podany wyżej.</p>
           </motion.section>
           {/* <motion.section id="travel" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.7}> */}
@@ -96,7 +96,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             {/* <p className="mx-auto max-w-xl text-lg mt-4">While you&apos;re in town, we recommend visiting the <a href="https://www.mayoclinic.org/patient-visitor-guide/minnesota" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">Mayo Clinic campus</a> to see the beautiful architecture and its world-renowned art collection. A highlight of the campus is the Plummer Building (not to be confused with the Plummer House where our wedding is located!), a National Historic Landmark. Atop the Plummer Building is the famous 56-bell Carillon of Mayo, one of the largest musical instruments of its kind. You can often hear its beautiful music throughout downtown Rochester. We also recommend taking a stroll through <a href="https://www.rochestermn.gov/Home/Components/FacilityDirectory/FacilityDirectory/138/1258" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">Silver Lake Park</a> or exploring the many great restaurants and breweries in the city.</p> */}
           {/* </motion.section> */}
           <motion.section id="faq" className="mx-auto max-w-3xl space-y-8 px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.9}>
-            <h2 className="text-center text-4xl font-bold text-rose-700">Sekcja pytań i odpowiedzi</h2>
+            <h2 className="text-center text-4xl font-bold text-[#568770]">Sekcja pytań i odpowiedzi</h2>
             <div className="space-y-4 text-left">
               <div>
                 <h3 className="font-semibold text-lg">Kiedy życzenia?</h3>
@@ -119,7 +119,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
           </motion.section>
           <footer className="flex flex-col items-center gap-4 px-4 pb-10 text-sm text-gray-500 dark:text-gray-400">
             <p>© {new Date().getFullYear()} Designed with ❤️ in Warsaw</p>
-            <a href="/project-info" className="text-rose-600 dark:text-rose-400 hover:underline">About this site</a>
+            <a href="/project-info" className="text-rose-600 dark:text-[#568770] hover:underline">About this site</a>
             <Link
               href="/heart"
               className="inline-block rounded-full bg-gradient-to-r from-amber-500 to-rose-700 px-10 py-4 font-medium text-white shadow-lg transition hover:scale-105 hover:shadow-xl"
