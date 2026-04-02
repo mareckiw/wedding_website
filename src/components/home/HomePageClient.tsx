@@ -67,7 +67,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                 <ul className="space-y-2 text-gray-800 dark:text-gray-100">
                   <li>15:00</li>
                   <li>Kościół Rzymskokatolicki p.w. Św. Katarzyny Aleksandryjskiej</li>
-                  <li><a href="https://maps.app.goo.gl/S74LtTs8jSa5woS69" target="_blank" rel="noopener noreferrer">Miarki 6, 43-253 Pielgrzymowice</a></li>
+                  <li><a href="https://maps.app.goo.gl/S74LtTs8jSa5woS69" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">Miarki 6, 43-253 Pielgrzymowice</a></li>
                 </ul>
               </div>
               <div className="rounded-2xl border border-amber-200 dark:border-amber-700 bg-white dark:bg-gray-800 p-8 shadow-lg transition-transform hover:scale-[1.02]">
@@ -75,14 +75,16 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                 <ul className="space-y-2 text-gray-800 dark:text-gray-100">
                   <li>Około 16:30-17:00</li>
                   <li>Siedlisko Stary Tartak (brak nazwy na mapach google)</li>
-                  <li><a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer">Na Kępie 2, 43-523 Pruchna</a></li>
+                  <li><a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">Na Kępie 2, 43-523 Pruchna</a></li>
                 </ul>
               </div>
             </div>
           </motion.section>
           <motion.section id="accommodations" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.5}>
             <h2 className="text-4xl font-bold text-rose-700">Logistyka</h2>
-            <p className="mx-auto max-w-xl text-lg">TRANSPORT: Dla gości z okolicy zadbaliśmy o kierowcę, który własnym busem odwiezie was do domu. NOCLEG: Dla gości przyjezdnych zapewniamy nocleg po potwierdzeniu chęci skorzystania.</p>
+            <p className="mx-auto max-w-xl text-lg">TRANSPORT: Dla gości z okolicy zadbaliśmy o kierowcę, który własnym busem odwiezie was do domu. 
+              <br />
+              NOCLEG: Dla gości przyjezdnych zapewniamy nocleg po potwierdzeniu chęci skorzystania.</p>
           </motion.section>
           <motion.section id="venue" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.6}>
             <h2 className="text-4xl font-bold text-rose-700">Więcej o weselu</h2>
