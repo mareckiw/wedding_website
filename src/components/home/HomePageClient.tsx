@@ -44,7 +44,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
               Aleksandra i Marek w radością zapraszają na ślub i wspólne świetowanie z nami 11 lipca 2026 roku.
             </motion.p>
             <motion.div className="flex flex-col items-center gap-3 sm:flex-row sm:gap-6" variants={fadeUp} initial="hidden" animate="visible" custom={2}>
-              <a href="https://forms.gle/tg3ZUboCtpUdSkJd7" className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#545e42] to-[#568770] px-8 py-3 text-white shadow-lg transition hover:shadow-xl" target="_blank" rel="noopener noreferrer">
+              <a href="https://forms.gle/tg3ZUboCtpUdSkJd7" className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#365446] to-[#568770] px-8 py-3 text-white shadow-lg transition hover:shadow-xl" target="_blank" rel="noopener noreferrer">
                 RSVP - potwierdz obecność
                 <ChevronDown className="h-5 w-5 transition-transform group-hover:translate-y-1" />
               </a>
@@ -62,7 +62,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
           <motion.section id="details" className="px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1}>
             <h2 className="text-center text-4xl font-bold text-[#568770] mb-10">Plan dnia</h2>
             <div className="mx-auto grid max-w-5xl gap-10 md:grid-cols-2">
-              <div className="rounded-2xl border border-rose-100 dark:border-rose-700 bg-white dark:bg-gray-800 p-8 shadow-lg transition-transform hover:scale-[1.02]">
+              <div className="rounded-2xl border border-[#77ba9b] dark:border-[#77ba9b] bg-white dark:bg-gray-800 p-8 shadow-lg transition-transform hover:scale-[1.02]">
                 <h3 className="mb-4 text-2xl font-semibold text-gray-800 dark:text-gray-100">Ślub</h3>
                 <ul className="space-y-2 text-gray-800 dark:text-gray-100">
                   <li>15:00</li>
@@ -70,7 +70,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                   <li><a href="https://maps.app.goo.gl/S74LtTs8jSa5woS69" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">Miarki 6, 43-253 Pielgrzymowice</a></li>
                 </ul>
               </div>
-              <div className="rounded-2xl border border-amber-200 dark:border-amber-700 bg-white dark:bg-gray-800 p-8 shadow-lg transition-transform hover:scale-[1.02]">
+              <div className="rounded-2xl border border-[#77ba9b] dark:border-[#77ba9b] bg-white dark:bg-gray-800 p-8 shadow-lg transition-transform hover:scale-[1.02]">
                 <h3 className="mb-4 text-2xl font-semibold text-gray-800 dark:text-gray-100">Przyjęcie Weselne</h3>
                 <ul className="space-y-2 text-gray-800 dark:text-gray-100">
                   <li>Około 16:30-17:00</li>
@@ -122,7 +122,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             <a href="/project-info" className="text-rose-600 dark:text-[#568770] hover:underline">About this site</a>
             <Link
               href="/heart"
-              className="inline-block rounded-full bg-gradient-to-r from-amber-500 to-rose-700 px-10 py-4 font-medium text-white shadow-lg transition hover:scale-105 hover:shadow-xl"
+              className="inline-block rounded-full bg-gradient-to-r from-[#365446] to-[#568770] px-10 py-4 font-medium text-white shadow-lg transition hover:scale-105 hover:shadow-xl"
             >
               Play with the Heart
             </Link>
