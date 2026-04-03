@@ -74,7 +74,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                 <h3 className="mb-4 text-2xl font-semibold text-gray-800 dark:text-gray-100">Przyjęcie Weselne</h3>
                 <ul className="space-y-2 text-gray-800 dark:text-gray-100">
                   <li>Około 16:30-17:00</li>
-                  <li>Siedlisko Stary Tartak (brak nazwy na mapach google)</li>
+                  <li><a href="https://www.instagram.com/stary_tartak/" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">Siedlisko Stary Tartak</a> (brak punktu na mapach google)</li>
                   <li><a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">Na Kępie 2, 43-523 Pruchna</a></li>
                 </ul>
               </div>
