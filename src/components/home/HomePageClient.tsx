@@ -88,7 +88,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
           </motion.section>
           <motion.section id="venue" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.6}>
             <h2 className="text-4xl font-bold text-[#568770]">Więcej o weselu</h2>
-            <p className="mx-auto max-w-xl text-lg">Siedlisko tary Tartak to ukryte miejsce pośród wzgórz i stawów z widokiem na Beskid Śląski. Miejsce jest ukryte, bo nie znajdziecie go na Mapach Google - należy jechać pod adres <a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">&quot;Na Kępie 2, Pruchna,&quot;</a> podany wyżej.</p>
+            <p className="mx-auto max-w-xl text-lg">Siedlisko Stary Tartak to ukryte miejsce pośród wzgórz i stawów z widokiem na Beskid Śląski. Miejsce jest ukryte, bo nie znajdziecie go na Mapach Google - należy jechać pod adres <a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">&quot;Na Kępie 2, Pruchna,&quot;</a> podany wyżej.</p>
           </motion.section>
           {/* <motion.section id="travel" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.7}> */}
             {/* <h2 className="text-4xl font-bold text-rose-700">Travel & Things to Do in Rochester</h2> */}
@@ -100,7 +100,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             <div className="space-y-4 text-left">
               <div>
                 <h3 className="font-semibold text-lg">Kiedy życzenia?</h3>
-                <p>Jeśli jesteś zaproszony na weselę - życzenia składamy na sali weselnej.</p>
+                <p>Jeśli jesteś zaproszony na wesele - życzenia składamy na sali weselnej.</p>
               </div>
                <div>
                 <h3 className="font-semibold text-lg">Jaka jest polityka upominkowa?</h3>
