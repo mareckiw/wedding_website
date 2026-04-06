@@ -113,7 +113,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Czy na miejscu wesela jest parking?</h3>
-                <p>Tak, lecz nie duży. Najlepiej skorzystać w podwózki na wesele i wrócić do domu zorganizowanym transportem.</p>
+                <p>Tak, lecz nieduży. Najlepiej skorzystać w podwózki na wesele i wrócić do domu zorganizowanym transportem.</p>
               </div>
             </div>
           </motion.section>
