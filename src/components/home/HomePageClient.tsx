@@ -43,7 +43,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             <motion.p className="mb-4 text-lg font-medium sm:text-xl" variants={fadeUp} initial="hidden" animate="visible" custom={1}>
               Aleksandra i Marek w radością zapraszają na ślub i wspólne świętowanie
               <br />
-              <span style={{ fontFamily: "'Imperial Script', cursive", fontSize: '20px' }}>11 lipca 2026</span>
+              <span style={{ fontFamily: "'Imperial Script', cursive", fontSize: '32px' }}>11 lipca 2026</span>
             </motion.p>
             <motion.div className="flex flex-col items-center gap-3 sm:flex-row sm:gap-6" variants={fadeUp} initial="hidden" animate="visible" custom={2}>
               <a href="https://forms.gle/tg3ZUboCtpUdSkJd7" className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#365446] to-[#568770] px-8 py-3 text-white shadow-lg transition hover:shadow-xl" target="_blank" rel="noopener noreferrer">
