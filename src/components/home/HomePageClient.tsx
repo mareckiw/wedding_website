@@ -91,6 +91,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                   <strong>NOCLEG:</strong> Dla gości przyjezdnych zapewniamy nocleg po potwierdzeniu chęci skorzystania.
                 </p>
             </div>
+          </motion.section>
           <motion.section id="venue" className="mx-auto max-w-3xl px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.6}>
             <div className="rounded-2xl border border-[#77ba9b] bg-white/80 dark:bg-gray-800/80 p-8 shadow-lg backdrop-blur-sm text-center">
               <h2 className="text-4xl font-bold text-[#568770] mb-6">Więcej o weselu</h2>
