@@ -110,27 +110,28 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             {/* <p className="mx-auto max-w-xl text-lg">For our guests flying in, you can fly into Rochester International Airport (RST) for a quick trip, or Minneapolis-Saint Paul International Airport (MSP) if you don&rsquo;t mind a scenic 90-minute drive. There is ample parking at the Plummer House for the wedding ceremony and reception.</p> */}
             {/* <p className="mx-auto max-w-xl text-lg mt-4">While you&apos;re in town, we recommend visiting the <a href="https://www.mayoclinic.org/patient-visitor-guide/minnesota" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">Mayo Clinic campus</a> to see the beautiful architecture and its world-renowned art collection. A highlight of the campus is the Plummer Building (not to be confused with the Plummer House where our wedding is located!), a National Historic Landmark. Atop the Plummer Building is the famous 56-bell Carillon of Mayo, one of the largest musical instruments of its kind. You can often hear its beautiful music throughout downtown Rochester. We also recommend taking a stroll through <a href="https://www.rochestermn.gov/Home/Components/FacilityDirectory/FacilityDirectory/138/1258" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">Silver Lake Park</a> or exploring the many great restaurants and breweries in the city.</p> */}
           {/* </motion.section> */}
-          <motion.section id="faq" className="mx-auto max-w-3xl space-y-8 px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.9}>
-            <h2 className="text-center text-4xl font-bold text-[#568770]">Sekcja pytań i odpowiedzi</h2>
-            <div className="space-y-4 text-left">
-              <div>
-                <h3 className="font-semibold text-lg">Kiedy życzenia?</h3>
-                <p>Jeśli jesteś zaproszony na wesele - życzenia składamy na sali weselnej.</p>
+          <motion.section id="faq" className="mx-auto max-w-3xl px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.9}>
+              <div className="rounded-2xl border border-[#77ba9b] bg-white/80 dark:bg-gray-800/80 p-8 shadow-lg backdrop-blur-sm">
+                <h2 className="text-center text-4xl font-bold text-[#568770] mb-10">Sekcja pytań i odpowiedzi</h2>
+                <div className="space-y-6 text-left">
+                  <div>
+                    <h3 className="font-bold text-lg text-[#568770]">Kiedy życzenia?</h3>
+                    <p className="text-gray-800 dark:text-gray-100">Jeśli jesteś zaproszony na wesele - życzenia składamy na sali weselnej.</p>
+                  </div>
+                  <div className="border-t border-gray-200 dark:border-gray-700 pt-4">
+                    <h3 className="font-bold text-lg text-[#568770]">Jaka jest polityka upominkowa?</h3>
+                    <p className="text-gray-800 dark:text-gray-100">W miejscu wesela będzie pełno kwiatów. Mamy już też wyposażenie mieszkania. Najlepszym pomysłem jest koperta.</p>
+                  </div>
+                  <div className="border-t border-gray-200 dark:border-gray-700 pt-4">
+                    <h3 className="font-bold text-lg text-[#568770]">Wesele z dziećmi?</h3>
+                    <p className="text-gray-800 dark:text-gray-100">Jeśli wskazane na indywidualnym zaproszeniu.</p>
+                  </div>
+                  <div className="border-t border-gray-200 dark:border-gray-700 pt-4">
+                    <h3 className="font-bold text-lg text-[#568770]">Czy na miejscu wesela jest parking?</h3>
+                    <p className="text-gray-800 dark:text-gray-100">Tak, lecz nieduży. Najlepiej skorzystać z podwózki na wesele i wrócić do domu zorganizowanym transportem.</p>
+                  </div>
+                </div>
               </div>
-               <div>
-                <h3 className="font-semibold text-lg">Jaka jest polityka upominkowa?</h3>
-                <p>W miejscu wesela będzie pełno kwiatów. Mamy już też wyposażenie mieszkania. Najlepszym pomysłem jest koperta.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-semibold text-lg">Wesele z dziećmi?</h3>
-                <p>Jeśli wskazane na indywidualnym zaproszeniu.</p>
-              </div>
-              <div>
-                <h3 className="font-semibold text-lg">Czy na miejscu wesela jest parking?</h3>
-                <p>Tak, lecz nieduży. Najlepiej skorzystać w podwózki na wesele i wrócić do domu zorganizowanym transportem.</p>
-              </div>
-            </div>
           </motion.section>
           <footer className="flex flex-col items-center gap-4 px-4 pb-10 text-sm text-gray-500 dark:text-gray-400">
             <p>© {new Date().getFullYear()} Designed with ❤️ in Warsaw</p>
