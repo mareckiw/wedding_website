@@ -104,9 +104,9 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             <div className="rounded-2xl border border-[#77ba9b] bg-white/80 dark:bg-gray-800/80 p-8 shadow-lg backdrop-blur-sm text-center">
               <h2 className="text-4xl font-bold text-[#568770] mb-6">Więcej o weselu</h2>
                <p className="mx-auto max-w-xl text-lg leading-relaxed text-gray-800 dark:text-gray-100">
-                Siedlisko Stary Tartak to ukryte miejsce pośród wzgórz i stawów z widokiem na Beskid Śląski. 
+                Siedlisko Stary Tartak to nietuzinkowe i ukryte miejsce na Śląsku Cieszyńskim. 
                 <br /><br />
-                Na miejscu czeka na nas odrestaurowany drewniany budynek po tartaku. Obiekt znajduje się nad jeziorem z widokiem na góry. Jest klimatyzowany i ma własny ogród. 
+                Na miejscu czeka na nas odrestaurowany drewniany budynek po tartaku. Obiekt znajduje się nad stawemami z widokiem na Beskid Śląski. Jest klimatyzowany i ma własny ogród. 
                 <br /><br />
                 Miejsce jest ukryte, należy jechać pod adres: {' '}
                 <a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">
