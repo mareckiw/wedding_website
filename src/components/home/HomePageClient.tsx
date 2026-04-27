@@ -103,13 +103,15 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
           <motion.section id="venue" className="mx-auto max-w-3xl px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.6}>
             <div className="rounded-2xl border border-[#77ba9b] bg-white/80 dark:bg-gray-800/80 p-8 shadow-lg backdrop-blur-sm text-center">
               <h2 className="text-4xl font-bold text-[#568770] mb-6">Więcej o weselu</h2>
-                <p className="mx-auto max-w-xl text-lg leading-relaxed text-gray-800 dark:text-gray-100">
+               <p className="mx-auto max-w-xl text-lg leading-relaxed text-gray-800 dark:text-gray-100">
                 Siedlisko Stary Tartak to ukryte miejsce pośród wzgórz i stawów z widokiem na Beskid Śląski. 
-                Miejsce jest ukryte, bo nie znajdziecie go na Mapach Google - należy jechać pod adres 
-                <a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline mx-1">
-                  "Na Kępie 2, Pruchna,"
-                </a> 
-                podany wyżej.
+                <br /><br />
+                Na miejscu czeka na nas odrestaurowany drewniany budynek po tartaku. Obiekt znajduje się nad jeziorem z widokiem na góry. Jest klimatyzowany i ma własny ogród. 
+                <br /><br />
+                Miejsce jest ukryte, należy jechać pod adres: {' '}
+                <a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">
+                  Na Kępie 2, Pruchna
+                </a>
               </p>
             </div>
           </motion.section>
