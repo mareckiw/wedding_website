@@ -48,7 +48,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             <motion.div className="flex flex-col items-center gap-3 sm:flex-row sm:gap-6" variants={fadeUp} initial="hidden" animate="visible" custom={2}>
               <a 
                 href="https://forms.gle/tg3ZUboCtpUdSkJd7" 
-                className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#365446] to-[#568770] px-10 py-4 text-xl text-white shadow-lg transition-transform hover:scale-[1.05] hover:shadow-xl" 
+                className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#365446] to-[#568770] px-10 py-4 text-xl text-white shadow-lg transition-transform hover:scale-[1.1] hover:shadow-xl" 
                 target="_blank" 
                 rel="noopener noreferrer"
               >
