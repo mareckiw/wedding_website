@@ -18,9 +18,16 @@
 }
 
 body {
-  background: var(--background);
+  /* Your new image settings */
+  background-image: url('/images/20200822_193608.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  /* Your existing text and font settings moved here */
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif; /* Consider using Geist font variable if set up */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 input, textarea, select {
