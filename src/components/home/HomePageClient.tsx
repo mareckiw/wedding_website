@@ -82,11 +82,15 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
               </div>
             </div>
           </motion.section>
-          <motion.section id="accommodations" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.5}>
-            <h2 className="text-4xl font-bold text-[#568770]">Logistyka</h2>
-            <p className="mx-auto max-w-xl text-lg">TRANSPORT: Dla gości z okolicy zadbaliśmy o kierowcę, który własnym busem odwiezie was do domu. 
-              <br />
-              NOCLEG: Dla gości przyjezdnych zapewniamy nocleg po potwierdzeniu chęci skorzystania.</p>
+          <motion.section id="accommodations" className="mx-auto max-w-3xl px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.5}>
+            <div className="rounded-2xl border border-[#77ba9b] bg-white/80 dark:bg-gray-800/80 p-8 shadow-lg backdrop-blur-sm text-center">
+              <h2 className="text-4xl font-bold text-[#568770] mb-6">Logistyka</h2>
+                <p className="mx-auto max-w-xl text-lg leading-relaxed text-gray-800 dark:text-gray-100">
+                  <strong>TRANSPORT:</strong> Dla gości z okolicy zadbaliśmy o kierowcę, który własnym busem odwiezie was do domu. 
+                  <br /><br />
+                  <strong>NOCLEG:</strong> Dla gości przyjezdnych zapewniamy nocleg po potwierdzeniu chęci skorzystania.
+                </p>
+            </div>
           </motion.section>
           <motion.section id="venue" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.6}>
             <h2 className="text-4xl font-bold text-[#568770]">Więcej o weselu</h2>
