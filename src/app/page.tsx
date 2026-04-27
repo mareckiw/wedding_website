@@ -28,7 +28,7 @@ const jsonLd = {
 };
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "Wesele Oli i Marka - 11.07.2026",
   alternates: {
     canonical: '/',
   },
