@@ -46,11 +46,19 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
               <span style={{ fontFamily: "'Imperial Script', cursive", fontSize: '32px' }}>11 lipca 2026</span>
             </motion.p>
             <motion.div className="flex flex-col items-center gap-3 sm:flex-row sm:gap-6" variants={fadeUp} initial="hidden" animate="visible" custom={2}>
-              <a href="https://forms.gle/tg3ZUboCtpUdSkJd7" className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#365446] to-[#568770] px-8 py-3 text-white shadow-lg transition hover:shadow-xl" target="_blank" rel="noopener noreferrer">
-                RSVP - potwierdz obecność
-                <ChevronDown className="h-5 w-5 transition-transform group-hover:translate-y-1" />
+              <a 
+                href="https://forms.gle/tg3ZUboCtpUdSkJd7" 
+                className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#365446] to-[#568770] px-10 py-4 text-xl text-white shadow-lg transition-transform hover:scale-[1.05] hover:shadow-xl" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                RSVP - potwierdź obecność 
+                <ChevronDown className="h-6 w-6 transition-transform group-hover:translate-y-1" />
               </a>
-              <Link href="#details" className="group inline-flex items-center gap-2 rounded-full bg-white dark:bg-gray-800 px-8 py-3 text-gray-800 dark:text-gray-100 shadow-lg transition hover:shadow-xl">
+              <Link 
+                href="#details" 
+                className="group inline-flex items-center gap-2 rounded-full bg-white/90 dark:bg-gray-800/90 px-10 py-4 text-xl text-gray-800 dark:text-gray-100 shadow-lg transition-transform hover:scale-[1.05] hover:shadow-xl backdrop-blur-sm"
+              >
                 Szczegóły wesela
               </Link>
             </motion.div>
