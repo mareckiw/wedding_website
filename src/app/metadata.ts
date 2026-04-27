@@ -2,9 +2,9 @@
 import type { Metadata } from 'next';
 
 const siteConfig = {
-  title: "Abbigayle & Frederick's Wedding",
-  description: 'Join Abbigayle and Frederick for their wedding celebration at the historic Plummer House in Rochester, MN. Find all the details about the ceremony, reception, registry, and our story.',
-  url: 'https://abbifred.com',
+  title: "Wesele Oli i Marka",
+  description: 'Aleksandra i Marek w radością zapraszają na ślub i wspólne świętowanie 11 lipca 2026',
+  url: 'https://amwesele.pl',
   ogImage: 'https://abbifred.com/images/sunset-embrace.jpg',
 };
 
