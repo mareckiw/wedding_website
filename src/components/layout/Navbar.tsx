@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 
 const navLinks = [
   { href: '/', label: 'Strona Główna' },
-  { href: '/photos', label: 'Zdjęcia' },
+  //{ href: '/photos', label: 'Zdjęcia' },
   //{ href: '/archive', label: 'Archive' },
 ];
 
