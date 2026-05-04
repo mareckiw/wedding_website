@@ -29,9 +29,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`dark ${geist.variable}`}>
+    <html lang="en" className={`dark ${geist.variable}`} style={{ height: '100%' }}>
       <body
         className={`${geist.variable} bg-[var(--color-background)] text-[var(--color-foreground)] selection:bg-rose-800`}
+        style={{ height: '100%' }}
       >
         <RootLayoutClient>{children}</RootLayoutClient>
       </body>
