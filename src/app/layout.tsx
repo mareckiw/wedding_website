@@ -19,7 +19,7 @@ export { metadata };
  * with the `RootLayoutClient` component, which handles client-side logic like state
  * management and event handling.
  *
- * @param {object} props - The component props.
+ * @param {object} props - The component props
  * @param {React.ReactNode} props.children - The child components to be rendered within the layout.
  * @returns {JSX.Element} The rendered root layout.
  */
