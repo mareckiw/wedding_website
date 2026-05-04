@@ -32,7 +32,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
         To use them: <AddToCalendar event={calendarEvent} /> or <Countdown targetDate="..." />
       */}
       <div id="top" />
-      <div className="min-h-screen bg-[var(--color-background)] text-[var(--color-foreground)] selection:bg-rose-100 selection:text-rose-900 dark:selection:bg-rose-800"
+      <div className="min-h-screen bg-transparent text-[var(--color-foreground)] selection:bg-rose-100 selection:text-rose-900 dark:selection:bg-rose-800"
       >
         <main id="main">
           <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-4 py-28 text-center sm:px-6 lg:px-8">
