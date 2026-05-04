@@ -138,7 +138,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                   </div>
                   <div className="border-t border-gray-200 dark:border-gray-700 pt-4">
                     <h3 className="font-bold text-lg text-[#568770]">Czy na miejscu wesela jest parking?</h3>
-                    <p className="text-gray-800 dark:text-gray-100">Tak, lecz nieduży, niestrzeżony. Najlepiej skorzystać z podwózki na wesele i wrócić do domu zorganizowanym transportem.</p>
+                    <p className="text-gray-800 dark:text-gray-100">Tak, lecz nieduży, niestrzeżony. Najlepiej skorzystać z podwózki na wesele i wrócić do domu np. <Link href="#accommodations" className="underline hover:text-[#568770] transition-colors">zorganizowanym przez nas transportem.</Link></p>
                   </div>
                 </div>
               </div>
