@@ -69,24 +69,48 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             {/* <p className="text-lg leading-relaxed">Since then, we&apos;ve built a life filled with laughter, shared dreams, and countless adventures. From exploring parks to cozy nights in binge-watching our favorite shows, we&apos;ve collected countless miles on the odometer, concert stubs, a few wolves tickets, and a growing library of inside jokes. We&apos;ve supported each other through thick and thin, celebrating milestones like Abbi&apos;s graduation as a Nurse Practitioner, and learned that home isn&apos;t just a place, but a feeling we find in each other.</p> */}
             {/* <p className="text-lg leading-relaxed">As we all were saying goodbye to 2024 and bringing in 2025, Fred recreated our very first date together in downtown Minneapolis. While the ball had just dropped, Fred asked Abbi to be his forever adventure partner, starting the new year right. Through happy tears, she said yes! We were so excited to celebrate our love and begin our next chapter with you at our Plummer House wedding.</p> */}
           {/* </motion.section> */}
-          <motion.section id="details" className="px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1}>
-            <h2 className="text-center text-4xl font-bold text-[#568770] mb-10">Plan dnia</h2>
-            <div className="mx-auto grid max-w-5xl gap-10 md:grid-cols-2">
-              <div className="rounded-2xl border border-[#77ba9b] dark:border-[#77ba9b] bg-white dark:bg-gray-800 p-8 shadow-lg transition-transform hover:scale-[1.02]">
-                <h3 className="mb-4 text-2xl font-semibold text-gray-800 dark:text-gray-100">Ślub</h3>
-                <ul className="space-y-2 text-gray-800 dark:text-gray-100">
-                  <li>15:00</li>
-                  <li>Kościół Rzymskokatolicki p.w. Św. Katarzyny Aleksandryjskiej</li>
-                  <li><a href="https://maps.app.goo.gl/S74LtTs8jSa5woS69" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">Miarki 6, 43-253 Pielgrzymowice</a></li>
-                </ul>
-              </div>
-              <div className="rounded-2xl border border-[#77ba9b] dark:border-[#77ba9b] bg-white dark:bg-gray-800 p-8 shadow-lg transition-transform hover:scale-[1.02]">
-                <h3 className="mb-4 text-2xl font-semibold text-gray-800 dark:text-gray-100">Przyjęcie Weselne</h3>
-                <ul className="space-y-2 text-gray-800 dark:text-gray-100">
-                  <li>Około 16:30-17:00</li>
-                  <li><a href="https://www.instagram.com/stary_tartak/" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">Siedlisko Stary Tartak</a> (siedliska nie znajdziecie na mapach google)</li>
-                  <li>należy kierować się na adres: {' '}<a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">Na Kępie 2, 43-523 Pruchna</a></li>
-                </ul>
+          <motion.section id="details" className="mx-auto max-w-5xl px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1}>
+            {/* New wrapper div with the Logistyka styling */}
+            <div className="rounded-2xl border border-[#77ba9b] bg-white/80 dark:bg-gray-800/80 p-8 shadow-lg backdrop-blur-sm">
+              
+              <h2 className="text-center text-4xl font-bold text-[#568770] mb-10">Plan dnia</h2>
+              
+              {/* Removed mx-auto and max-w-5xl here since it's now handled by the parent section */}
+              <div className="grid gap-10 md:grid-cols-2">
+                
+                {/* Card 1: Ślub */}
+                <div className="rounded-2xl border border-[#77ba9b] dark:border-[#77ba9b] bg-white dark:bg-gray-800 p-8 shadow-lg transition-transform hover:scale-[1.02]">
+                  <h3 className="mb-4 text-2xl font-semibold text-gray-800 dark:text-gray-100">Ślub</h3>
+                  <ul className="space-y-2 text-gray-800 dark:text-gray-100">
+                    <li>15:00</li>
+                    <li>Kościół Rzymskokatolicki p.w. Św. Katarzyny Aleksandryjskiej</li>
+                    <li>
+                      <a href="https://maps.app.goo.gl/S74LtTs8jSa5woS69" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">
+                        Miarki 6, 43-253 Pielgrzymowice
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+          
+                {/* Card 2: Przyjęcie Weselne */}
+                <div className="rounded-2xl border border-[#77ba9b] dark:border-[#77ba9b] bg-white dark:bg-gray-800 p-8 shadow-lg transition-transform hover:scale-[1.02]">
+                  <h3 className="mb-4 text-2xl font-semibold text-gray-800 dark:text-gray-100">Przyjęcie Weselne</h3>
+                  <ul className="space-y-2 text-gray-800 dark:text-gray-100">
+                    <li>Około 16:30-17:00</li>
+                    <li>
+                      <a href="https://www.instagram.com/stary_tartak/" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">
+                        Siedlisko Stary Tartak
+                      </a> (siedliska nie znajdziecie na mapach google)
+                    </li>
+                    <li>
+                      należy kierować się na adres: {' '}
+                      <a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">
+                        Na Kępie 2, 43-523 Pruchna
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+          
               </div>
             </div>
           </motion.section>
