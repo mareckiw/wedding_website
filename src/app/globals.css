@@ -26,7 +26,7 @@ html, body {
 
 body {
   background: var(--background);
-  background-image: url('/Spain-18.jpg');
+  background-image: url('/images/Spain-18.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
