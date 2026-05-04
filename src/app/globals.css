@@ -1,10 +1,24 @@
 @import "tailwindcss";
 @import "../../node_modules/keen-slider/keen-slider.min.css";
 
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/Spain-18.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
 :root {
-  --background: transparent; /* Changed from #111827 */
+  --background: #111827; /* gray-900 */
   --foreground: #f9fafb; /* gray-50 */
-  --color-background: var(--background);
+  --color-background: transparent;
   --color-foreground: var(--foreground);
   --color-primary: #f43f5e; /* rose-500 for better contrast */
   --color-secondary: #fbbf24; /* amber-400 */
@@ -18,14 +32,6 @@
 }
 
 body {
-  /* Your new image settings */
-  background-image: url('/images/Spain-18.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-
-  /* Your existing text and font settings moved here */
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
