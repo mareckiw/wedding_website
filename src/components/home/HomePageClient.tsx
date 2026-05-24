@@ -41,7 +41,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
               Będzie wesele!
             </motion.h1>
             <motion.p className="mb-4 text-lg font-medium sm:text-xl" variants={fadeUp} initial="hidden" animate="visible" custom={1}>
-              Aleksandra i Marek w radością zapraszają na ślub i wspólne świętowanie
+              Aleksandra i Marek z radością zapraszają na ślub i wspólne świętowanie
               <br />
               <span style={{ fontFamily: "'Imperial Script', cursive", fontSize: '32px' }}>11 lipca 2026</span>
             </motion.p>
@@ -130,7 +130,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                <p className="mx-auto max-w-xl text-lg leading-relaxed text-gray-800 dark:text-gray-100">
                 Siedlisko Stary Tartak to nietuzinkowe i ukryte miejsce na Śląsku Cieszyńskim. 
                 <br /><br />
-                Na miejscu czeka na nas odrestaurowany drewniany budynek po tartaku. Obiekt znajduje się nad stawemami z widokiem na Beskid Śląski. Jest klimatyzowany i ma własny ogród. 
+                Na miejscu czeka na nas odrestaurowany drewniany budynek po tartaku. Obiekt znajduje się nad stawami z widokiem na Beskid Śląski. Jest klimatyzowany i ma własny ogród. 
                 <br /><br />
                 Miejsce jest ukryte, należy jechać pod adres: {' '}
                 <a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">
