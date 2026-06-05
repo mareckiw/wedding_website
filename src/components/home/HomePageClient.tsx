@@ -127,7 +127,10 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                 <p className="mx-auto max-w-xl text-lg leading-relaxed text-gray-800 dark:text-gray-100">
                   <strong>TRANSPORT:</strong> Dla gości z okolicy zadbaliśmy o kierowców, którzy (9-osobowym) busem odwiozą was pod dom (np. do BB). 
                   <br /><br />
-                  <strong>NOCLEG:</strong> Dla gości przyjezdnych zapewniamy nocleg po potwierdzeniu chęci skorzystania.
+                  <strong>NOCLEG:</strong> Dla gości przyjezdnych zapewniamy nocleg po potwierdzeniu chęci skorzystania w
+                  <a href="https://forms.gle/tg3ZUboCtpUdSkJd7" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">
+                        formularzu
+                      </a> .
                 </p>
             </div>
           </motion.section>
