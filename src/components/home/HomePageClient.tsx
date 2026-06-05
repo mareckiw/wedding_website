@@ -125,7 +125,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             <div className="rounded-2xl border border-[#77ba9b] bg-white/80 dark:bg-gray-800/80 p-8 shadow-lg backdrop-blur-sm text-center">
               <h2 className="text-4xl font-bold text-[#568770] mb-6">Logistyka</h2>
                 <p className="mx-auto max-w-xl text-lg leading-relaxed text-gray-800 dark:text-gray-100">
-                  <strong>TRANSPORT:</strong> Dla gości z okolicy zadbaliśmy o kierowcę, który własnym busem (9 os.) odwiezie was do domu. 
+                  <strong>TRANSPORT:</strong> Dla gości z okolicy zadbaliśmy o kierowców, którzy (9-osobowym) busem odwiozą was pod dom (np. do BB). 
                   <br /><br />
                   <strong>NOCLEG:</strong> Dla gości przyjezdnych zapewniamy nocleg po potwierdzeniu chęci skorzystania.
                 </p>
