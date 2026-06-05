@@ -127,10 +127,10 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                 <p className="mx-auto max-w-xl text-lg leading-relaxed text-gray-800 dark:text-gray-100">
                   <strong>TRANSPORT:</strong> Dla gości z okolicy zadbaliśmy o kierowców, którzy (9-osobowym) busem odwiozą was pod dom (np. do BB). 
                   <br /><br />
-                  <strong>NOCLEG:</strong> Dla gości przyjezdnych zapewniamy nocleg po potwierdzeniu chęci skorzystania w
+                  <strong>NOCLEG:</strong> Dla gości przyjezdnych zapewniamy nocleg po potwierdzeniu chęci skorzystania w 
                   <a href="https://forms.gle/tg3ZUboCtpUdSkJd7" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">
                         formularzu
-                      </a> .
+                      </a>.
                 </p>
             </div>
           </motion.section>
@@ -142,6 +142,14 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                 <br /><br />
                 Na miejscu czeka na nas odrestaurowany drewniany budynek po tartaku. Obiekt znajduje się nad stawami z widokiem na Beskid Śląski. Jest klimatyzowany i ma własny ogród. 
                 <br /><br />
+                Więcej szczegółów
+                <a href="https://siedliskostarytartak.pl/" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">
+                        na stronie
+                      </a>. Oraz ich
+                <a href="https://www.instagram.com/stary_tartak/" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">
+                        Instagramie
+                      </a>
+                <br />
                 Miejsce jest ukryte, należy jechać pod adres: {' '}
                 <a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">
                   Na Kępie 2, Pruchna
