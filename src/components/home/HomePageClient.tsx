@@ -148,7 +148,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                       </a>. Oraz ich{' '}
                 <a href="https://www.instagram.com/stary_tartak/" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">
                          Instagramie
-                      </a>
+                      </a>.
                 <br />
                 Miejsce jest ukryte, należy jechać pod adres: {' '}
                 <a href="https://maps.app.goo.gl/qJTf1UsoRsayyAhk9" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">
