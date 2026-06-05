@@ -48,7 +48,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
             <motion.div className="flex flex-col items-center gap-3 sm:flex-row sm:gap-6" variants={fadeUp} initial="hidden" animate="visible" custom={2}>
               <a 
                 href="https://forms.gle/tg3ZUboCtpUdSkJd7" 
-                className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#365446] to-[#568770] px-10 py-4 text-xl text-white shadow-lg transition-transform hover:scale-[1.1] hover:shadow-xl" 
+                className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#365446] to-[#568770] px-10 py-4 text-xl text-white shadow-lg transition-transform hover:scale-[1.1]"
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -57,17 +57,17 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
               </a>
               <Link 
                 href="#details" 
-                className="group inline-flex items-center gap-2 rounded-full bg-white/90 dark:bg-gray-800/90 px-10 py-4 text-xl text-gray-800 dark:text-gray-100 shadow-lg transition-transform hover:scale-[1.05] hover:shadow-xl backdrop-blur-sm"
+                className="group inline-flex items-center gap-2 rounded-full bg-white/90 dark:bg-gray-800/90 px-10 py-4 text-xl text-gray-800 dark:text-gray-100 shadow-lg transition-transform hover:scale-[1.05]"
               >
                 Szczegóły wesela
               </Link>
             </motion.div>
           </section>
-          {/* <motion.section id="story" className="mx-auto max-w-3xl space-y-8 px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={0}> */}
+          {/* <motion.section id="story" className="mx-auto max-w-3xl space-y-8 px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={0}>
             {/* <h2 className="text-center text-4xl font-bold text-rose-700">Our Story</h2> */}
-            {/* <p className="text-lg leading-relaxed">It all began with a swipe right on a cool evening in 2024. Abbi was drawn to Fred&apos;s adventurous spirit, while Fred was captivated by Abbi&apos;s warm smile and shared love for hotdogs. Our first date involved Fred plugging the laser loon and ended with hours of conversation that felt like minutes.</p> */}
-            {/* <p className="text-lg leading-relaxed">Since then, we&apos;ve built a life filled with laughter, shared dreams, and countless adventures. From exploring parks to cozy nights in binge-watching our favorite shows, we&apos;ve collected countless miles on the odometer, concert stubs, a few wolves tickets, and a growing library of inside jokes. We&apos;ve supported each other through thick and thin, celebrating milestones like Abbi&apos;s graduation as a Nurse Practitioner, and learned that home isn&apos;t just a place, but a feeling we find in each other.</p> */}
-            {/* <p className="text-lg leading-relaxed">As we all were saying goodbye to 2024 and bringing in 2025, Fred recreated our very first date together in downtown Minneapolis. While the ball had just dropped, Fred asked Abbi to be his forever adventure partner, starting the new year right. Through happy tears, she said yes! We were so excited to celebrate our love and begin our next chapter with you at our Plummer House wedding.</p> */}
+            {/* <p className="text-lg leading-relaxed">It all began with a swipe right on a cool evening in 2024. Abbi was drawn to Fred&apos;s adventurous spirit, while Fred was captivated by Abbi&apos;s warm heart and infectious laughter.</p> */}
+            {/* <p className="text-lg leading-relaxed">Since then, we&apos;ve built a life filled with laughter, shared dreams, and countless adventures. From exploring parks to cozy nights in binge-watching our favorite shows, every moment with Fred has been a blessing.</p> */}
+            {/* <p className="text-lg leading-relaxed">As we all were saying goodbye to 2024 and bringing in 2025, Fred recreated our very first date together in downtown Minneapolis. While the ball dropped at midnight, he got down on one knee and asked me to marry him. It was the most magical moment of my life, and I couldn't wait to say yes.</p> */}
           {/* </motion.section> */}
           <motion.section id="details" className="mx-auto max-w-5xl px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1}>
             {/* New wrapper div with the Logistyka styling */}
@@ -112,6 +112,13 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                 </div>
           
               </div>
+
+              {/* Transport info card */}
+              <div className="mt-10 rounded-2xl border border-[#77ba9b] bg-gradient-to-br from-[#77ba9b]/10 to-[#568770]/10 dark:from-[#77ba9b]/20 dark:to-[#568770]/20 p-6">
+                <p className="text-center text-gray-800 dark:text-gray-100">
+                  <strong className="text-[#568770]">Przejazd na salę:</strong> Wystarczy, że pojawisz się na mszy. Po mszy będą podstawione busy 9-osobowe, które przewiozą gości na salę weselną (10 min jazdy).
+                </p>
+              </div>
             </div>
           </motion.section>
           <motion.section id="accommodations" className="mx-auto max-w-3xl px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.5}>
@@ -139,10 +146,10 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
               </p>
             </div>
           </motion.section>
-          {/* <motion.section id="travel" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.7}> */}
+          {/* <motion.section id="travel" className="mx-auto max-w-3xl space-y-8 px-4 py-20 text-center sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.7}>
             {/* <h2 className="text-4xl font-bold text-rose-700">Travel & Things to Do in Rochester</h2> */}
-            {/* <p className="mx-auto max-w-xl text-lg">For our guests flying in, you can fly into Rochester International Airport (RST) for a quick trip, or Minneapolis-Saint Paul International Airport (MSP) if you don&rsquo;t mind a scenic 90-minute drive. There is ample parking at the Plummer House for the wedding ceremony and reception.</p> */}
-            {/* <p className="mx-auto max-w-xl text-lg mt-4">While you&apos;re in town, we recommend visiting the <a href="https://www.mayoclinic.org/patient-visitor-guide/minnesota" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">Mayo Clinic campus</a> to see the beautiful architecture and its world-renowned art collection. A highlight of the campus is the Plummer Building (not to be confused with the Plummer House where our wedding is located!), a National Historic Landmark. Atop the Plummer Building is the famous 56-bell Carillon of Mayo, one of the largest musical instruments of its kind. You can often hear its beautiful music throughout downtown Rochester. We also recommend taking a stroll through <a href="https://www.rochestermn.gov/Home/Components/FacilityDirectory/FacilityDirectory/138/1258" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 hover:underline">Silver Lake Park</a> or exploring the many great restaurants and breweries in the city.</p> */}
+            {/* <p className="mx-auto max-w-xl text-lg">For our guests flying in, you can fly into Rochester International Airport (RST) for a quick trip, or Minneapolis-Saint Paul International Airport (MSP) for more flight options.</p> */}
+            {/* <p className="mx-auto max-w-xl text-lg mt-4">While you&apos;re in town, we recommend visiting the <a href="https://www.mayoclinic.org/patient-visitor-guide/minnesota" target="_blank" rel="noopener noreferrer" className="text-rose-600 underline">Mayo Clinic Campus</a>, exploring the historic downtown district, or enjoying outdoor activities at local parks.</p> */}
           {/* </motion.section> */}
           <motion.section id="faq" className="mx-auto max-w-3xl px-4 py-20 sm:px-6 lg:px-8" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp} custom={1.9}>
               <div className="rounded-2xl border border-[#77ba9b] bg-white/80 dark:bg-gray-800/80 p-8 shadow-lg backdrop-blur-sm">
@@ -162,7 +169,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                   </div>
                   <div className="border-t border-gray-200 dark:border-gray-700 pt-4">
                     <h3 className="font-bold text-lg text-[#568770]">Czy na miejscu wesela jest parking?</h3>
-                    <p className="text-gray-800 dark:text-gray-100">Tak, lecz nieduży, niestrzeżony. Najlepiej skorzystać z podwózki na wesele i wrócić do domu np. <Link href="#accommodations" className="underline hover:text-[#568770] transition-colors">zorganizowanym przez nas transportem.</Link></p>
+                    <p className="text-gray-800 dark:text-gray-100">Tak, lecz nieduży, niestrzeżony. Najlepiej skorzystać z podwózki na wesele i wrócić do domu np. <Link href="#accommodations" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">busem</Link>.</p>
                   </div>
                 </div>
               </div>
