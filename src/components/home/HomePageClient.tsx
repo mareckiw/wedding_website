@@ -129,7 +129,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                   <br /><br />
                   <strong>NOCLEG:</strong> Dla gości przyjezdnych zapewniamy nocleg po potwierdzeniu chęci skorzystania w 
                   <a href="https://forms.gle/tg3ZUboCtpUdSkJd7" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">
-                        formularzu
+                         formularzu
                       </a>.
                 </p>
             </div>
@@ -144,10 +144,10 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                 <br /><br />
                 Więcej szczegółów
                 <a href="https://siedliskostarytartak.pl/" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">
-                        na stronie
+                         na stronie
                       </a>. Oraz ich
                 <a href="https://www.instagram.com/stary_tartak/" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">
-                        Instagramie
+                         Instagramie
                       </a>
                 <br />
                 Miejsce jest ukryte, należy jechać pod adres: {' '}
