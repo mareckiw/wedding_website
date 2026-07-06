@@ -117,6 +117,16 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                 <h3 className="font-semibold text-lg">Czy na miejscu wesela jest parking?</h3>
                 <p>Tak, lecz nieduży. Najlepiej skorzystać w podwózki na wesele i wrócić do domu zorganizowanym transportem.</p>
               </div>
+              <div>
+                <h3 className="font-semibold text-lg">Szczegóły noclegu</h3>
+                <p>Noclegi są w
+                <li><a href="https://maps.app.goo.gl/edNAZ8fvNF9L2xSr5" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">Willa Rufina</a></li>
+                Doba hotelowa trwa od 13:00 i kończy się o 11:00. Wcześniejsze zameldowanie możliwe jest w zależności od dostępności i jeśli macie takie życzenie to zadzwońcie to hotelu. 
+                <br />
+                Przypisaliśmy Wam pokoje i ich rozkład znajduje się <li><a href="https://docs.google.com/spreadsheets/d/1jdrjo_YfHfTxFexC_AZtAUpZ-F0YvGzm3wko8NPxzkI/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">tutaj</a></li>
+                Śniadania są w godzinach 8-11 rano.
+                </p>
+              </div>
             </div>
           </motion.section>
           <footer className="flex flex-col items-center gap-4 px-4 pb-10 text-sm text-gray-500 dark:text-gray-400">
