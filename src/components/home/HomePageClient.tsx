@@ -119,13 +119,23 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
               </div>
               <div>
                 <h3 className="font-semibold text-lg">Szczegóły noclegu</h3>
-                <p>Noclegi są w
-                <li><a href="https://maps.app.goo.gl/edNAZ8fvNF9L2xSr5" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">Willa Rufina</a></li>
-                Doba hotelowa trwa od 13:00 i kończy się o 11:00. Wcześniejsze zameldowanie możliwe jest w zależności od dostępności i jeśli macie takie życzenie to zadzwońcie to hotelu. 
-                <br />
-                Przypisaliśmy Wam pokoje i ich rozkład znajduje się <li><a href="https://docs.google.com/spreadsheets/d/1jdrjo_YfHfTxFexC_AZtAUpZ-F0YvGzm3wko8NPxzkI/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">tutaj</a></li>
-                Śniadania są w godzinach 8-11 rano.
-                </p>
+                
+                <p>Noclegi są w:</p>
+                <ul className="list-disc list-inside ml-4 my-2">
+                  <li>
+                    <a href="https://maps.app.goo.gl/edNAZ8fvNF9L2xSr5" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">Willa Rufina</a>
+                  </li>
+                </ul>
+                
+                <p className="mb-2">Doba hotelowa trwa od 13:00 i kończy się o 11:00. Wcześniejsze zameldowanie możliwe jest w zależności od dostępności i jeśli macie takie życzenie to zadzwońcie to hotelu.</p>
+                
+                <p>Przypisaliśmy Wam pokoje i ich rozkład znajduje się:</p>
+                <ul className="list-disc list-inside ml-4 my-2">
+                  <li>
+                    <a href="https://docs.google.com/spreadsheets/d/1jdrjo_YfHfTxFexC_AZtAUpZ-F0YvGzm3wko8NPxzkI/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">tutaj</a>
+                  </li>
+                </ul>
+                <p>Śniadania są w godzinach 8-11 rano.</p>
               </div>
             </div>
           </motion.section>
