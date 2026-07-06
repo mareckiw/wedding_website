@@ -182,7 +182,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
                     <h3 className="font-bold text-lg text-[#568770]">Czy na miejscu wesela jest parking?</h3>
                     <p className="text-gray-800 dark:text-gray-100">Tak, lecz nieduży, niestrzeżony. Najlepiej skorzystać z podwózki na wesele i wrócić do domu np. <Link href="#accommodations" className="text-rose-600 dark:text-rose-400 underline hover:no-underline">busem</Link>.</p>
                   </div>
-                  <div>
+                  <div className="border-t border-gray-200 dark:border-gray-700 pt-4">
                     <h3 className="font-bold text-lg text-[#568770]">Szczegóły noclegu</h3>
                 
                     <p>Noclegi są w:</p>
