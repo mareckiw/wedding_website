@@ -116,7 +116,7 @@ export default function HomePageClient({ calendarEvent }: { calendarEvent: Calen
               {/* Transport info card */}
               <div className="mt-10 rounded-2xl border border-[#77ba9b] bg-gradient-to-br from-[#77ba9b]/10 to-[#568770]/10 dark:from-[#77ba9b]/20 dark:to-[#568770]/20 p-6">
                 <p className="text-center text-gray-800 dark:text-gray-100">
-                  <strong className="text-[#568770]">Przejazd na salę:</strong> Wystarczy, że pojawisz się na mszy. Po mszy będą podstawione busy 9-osobowe, które przewiozą gości na salę weselną (10 min jazdy).
+                  <strong className="text-[#568770]">Przejazd na salę:</strong> Większość gości jedzie własnym samochodem, aby móc przejechać ze mszy na sale. Niektórzy pojadą podstawionym busem 9-osobowym, który przewiezie gości na salę weselną (10 min jazdy).
                 </p>
               </div>
             </div>
